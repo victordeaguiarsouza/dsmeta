@@ -3,12 +3,12 @@ import './styles.css'
 
 function NotificationButton() {
     return (
-        <div class="dsmeta-red-btn-container">
-            <div class="dsmeta-red-btn">
+        <div className="dsmeta-red-btn-container">
+            <div className="dsmeta-red-btn">
                 <img src={icon} alt="Notificar"/>
             </div>
         </div>
     );
 }
   
-  export default NotificationButton
+export default NotificationButton
